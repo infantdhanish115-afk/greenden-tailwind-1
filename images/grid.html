@@ -1,0 +1,89 @@
+<style>
+    .container {
+        padding: 10px;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    .header {
+        background-color: rgb(0, 201, 184);
+        padding: 5px;
+    }
+
+    .footer {
+        background-color: rgb(0, 201, 184);
+        padding: 5px;
+    }
+
+    .middle {
+        background-color: black;
+        color: white;
+        padding: 5px;
+
+    }
+
+    .middle {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
+
+    .aside {
+        background-color: rgb(55, 187, 55);
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        grid-template-rows: 1fr ;
+        padding: 5px;
+        height: 200px;
+        margin: 5px;
+    }
+
+    .article {
+        background-color: orange;
+        padding: 5px;
+        height: 200px;
+        margin: 5px;
+        
+    }
+
+    .article-1 {
+        display: grid;
+        grid-template-rows: 2fr 1fr;
+        
+    }
+
+    .image-1 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        color: black;
+        padding: 5px;
+        justify-items: center;
+
+    }
+
+    .image-1 div {
+        background-color: yellow;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+        width: 50px;
+    }
+</style>
+<div class="container">
+    <div class="header">header</div>
+    <div class="middle">
+        <div class="aside">Aside</div>
+        <div class="article">
+            <div class="article-1">Article
+                <div class="image-1">
+                    <div>image</div>
+                    <div>image</div>
+                    <div>image</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">footer</div>
+</div>
